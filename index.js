@@ -3,7 +3,7 @@ var app = express();
 var serv = require('http').Server(app);
  
 app.get('/',function(req, res) {
-    res.sendFile(__dirname + '/client/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 app.use('/client',express.static(__dirname + '/client'));
  
@@ -17,7 +17,7 @@ var Entity = function(){
         x:250,
         y:250,
         spdX:0,
-        spdY:0,
+        spdY:0,s
         id:"",
     }
     self.update = function(){

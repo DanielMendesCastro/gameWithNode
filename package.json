@@ -1,0 +1,23 @@
+{
+  "name": "gamewithnode",
+  "version": "1.0.0",
+  "description": "A simple project that use Node JS and Socket.io like base for MMO Bowser Game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglaspacor/gameWithNode.git"
+  },
+  "author": "Douglas Pacor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglaspacor/gameWithNode/issues"
+  },
+  "homepage": "https://github.com/douglaspacor/gameWithNode#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}

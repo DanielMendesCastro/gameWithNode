@@ -17,8 +17,8 @@ var Entity = function(){
         x:250,
         y:250,
         spdX:0,
-        spdY:0,s
-        id:"",
+        spdY:0,
+        id:""
     }
     self.update = function(){
         self.updatePosition();
